@@ -1,8 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.site-header { background: url("../img/banyan-tree.jpg") center; background-size: cover; padding: 6em 0; margin-bottom: 1em; }
-.site-header h1 { color: #FFF; text-shadow: 0 0 1px #000; margin-left: 10px; margin-right: 10px; font-weight: bold; text-align: center; }
+.site-header { background: url("../img/sunset.jpg") center; background-size: cover; padding: 6em 0; margin-bottom: 1em; }
+.site-header h1 { color: #FFF; text-shadow: 0 0 1px #000; margin-left: 10px; margin-right: 10px; font-weight: bold; text-align: center; font-family: 'Gochi Hand', cursive; }
+
+h1 {font-size: 2em;}
+
+h2 {font-family: 'Gochi Hand', cursive; text-align: center; }
+
+p {font-family: 'Nunito Sans', sans-serif; text-align: center; font-size: 1.5em; }
+
+.author {font-family: 'Dancing Script', cursive; font-size: 1.2em; }
 
 .container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
 .container:before, .container:after { content: " "; display: table; }
@@ -14,6 +22,12 @@
 .container-fluid { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
 .container-fluid:before, .container-fluid:after { content: " "; display: table; }
 .container-fluid:after { clear: both; }
+
+img { vertical-align: middle; }
+
+.img-responsive { display: block; max-width: 100%; height: auto; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
 
 .row { margin-left: -15px; margin-right: -15px; }
 .row:before, .row:after { content: " "; display: table; }
