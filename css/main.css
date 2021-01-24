@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* css Document */
 
-.site-header { background: url("sunset.jpg") center; background-size: cover; padding: 6em 0; margin-bottom: 1em; }
+.site-header { background: url("../img/sunset.png") center; background-size: cover; padding: 6em 0; margin-bottom: 1em; }
 .site-header h1 { color: #FFF; text-shadow: 0 0 1px #000; margin-left: 10px; margin-right: 10px; font-weight: bold; text-align: center; font-family: 'Gochi Hand', cursive; }
 
 h1 {font-size: 2em;}
